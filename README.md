@@ -66,7 +66,12 @@ Install via CLI:
 
 - **Install the Akuity Agent add-on** - In the Install Akuity Agent pop-up screen, enter the name of your EKS cluster
 - click "Copy to Clipboard" on step 2.
+
 <img src="https://docs.akuity.io/assets/images/eks_addon_akp_cluster_add_3-6176f1feefb71fe66c84c496660262db.png" alt="stuff">
+
+- Paste the copied command into your terminal and run it to apply the agent manifest.
+
+It will look something like this
 
 ```bash
 export AKP_API_URL="<The URL you got from AKP>"
