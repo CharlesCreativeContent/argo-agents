@@ -46,7 +46,7 @@ Key benefits include:
 kubectl create namespace akuity
 ```
 
-3. <details>
+<details>
 <summary>
 Install via AWS Console:
 </summary>
@@ -58,7 +58,11 @@ Install via AWS Console:
 
 </details>
 
-4. Install via CLI:
+<details>
+<summary>
+Install via CLI:
+</summary>
+<br>
 
 ```bash
 export AKP_API_URL="<The URL you got from AKP>"
@@ -66,7 +70,10 @@ aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
    --configuration-values "{\"akpUrl\":\"$AKP_API_URL\"}" --resolve-conflicts OVERWRITE
 ```
 
-5. Create API Token Secret:
+</details>
+
+
+4. Create API Token Secret:
 
 
 ```bash
@@ -74,14 +81,14 @@ export TOKEN=<your cluster token>
 kubectl create secret generic akuity-platform-api-token -n akuity --from-literal=AKP_TOKEN="$TOKEN"
 ```
 
-6. Verify Installation:
+5. Verify Installation:
 
 
 ```bash
 aws eks describe-addon --addon-name akuity_agent --region <AWS_REGION> --cluster-name <CLUSTER_NAME>
 ```
 
-7. Clean Up:
+6. Clean Up:
 
 ```bash
 kubectl delete secret akuity-platform-api-token -n akuity
