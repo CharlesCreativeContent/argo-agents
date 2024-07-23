@@ -6,9 +6,7 @@ Managing Kubernetes clusters on Amazon EKS can be challenging, particularly when
 
 ## Technical Value of Akuity Agents
 
-Akuity Agents enhance Amazon EKS by providing an integrated solution for continuous deployment and cluster management.
-
-Key benefits include:
+Akuity Agents offer significant benefits for Amazon EKS users. They provide seamless integration with the Akuity platform, enabling comprehensive management of Argo CD instances directly within EKS. This integration facilitates better automation, security, and scalability for your Kubernetes clusters. Key features include:
 
 - **Simplified Deployment:** Automate and streamline application deployment with Argo CD integration.
 - **Enhanced Security:** Secure your deployments with managed secrets and policies.
@@ -17,6 +15,7 @@ Key benefits include:
 
 ## How to Install and Use Akuity Agents on Amazon EKS
 
+Installing Akuity Agents on Amazon EKS is straightforward. Here's a step-by-step guide:
 
 ### Prerequisites:
 
@@ -94,12 +93,13 @@ Install via CLI:
 </summary>
 <br>
 
-- **Install the Akuity Agent add-on** - In the Install Akuity Agent pop-up screen, enter the name of your EKS cluster
-- click "Copy to Clipboard" on step 2.
+- **Install the Akuity Agent add-on**
+- In the Install Akuity Agent pop-up screen,  enter your EKS cluster name
+- Click "Copy to Clipboard" on step 2.
 
 <img src="https://docs.akuity.io/assets/images/eks_addon_akp_cluster_add_3-6176f1feefb71fe66c84c496660262db.png" alt="stuff">
 
-- Paste the copied command into your terminal and run it to apply the agent manifest.
+- Run the command in your terminal to apply the agent manifest.
 
 It will look something like this
 
@@ -133,9 +133,6 @@ aws eks describe-addon --addon-name akuity_agent --region <AWS_REGION> --cluster
 kubectl delete secret akuity-platform-api-token -n akuity
 ```
 
-## Summary
 Using Akuity Agents on Amazon EKS simplifies the management and deployment of applications, enhances security, and scales operations efficiently. By integrating with Argo CD and providing robust automation tools, Akuity empowers DevOps teams to focus on innovation rather than infrastructure management.
-
-## Call to Action:
 
 Ready to streamline your Kubernetes management? Get started with Akuity on Amazon EKS today and transform your DevOps workflow!
