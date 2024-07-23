@@ -8,10 +8,10 @@ Akuity Agents enhance Amazon EKS by providing an integrated solution for continu
 
 Key benefits include:
 
-- Simplified Deployment: Automate and streamline application deployment with Argo CD integration.
-- Enhanced Security: Secure your deployments with managed secrets and policies.
-- Scalability: Effortlessly manage and scale your Kubernetes clusters with robust tools and integrations.
-- Reduced Complexity: Simplify cluster management through a single platform, reducing the learning curve and operational overhead.
+- **Simplified Deployment:** Automate and streamline application deployment with Argo CD integration.
+- **Enhanced Security:** Secure your deployments with managed secrets and policies.
+- **Scalability:** Effortlessly manage and scale your Kubernetes clusters with robust tools and integrations.
+- **Reduced Complexity:** Simplify cluster management through a single platform, reducing the learning curve and operational overhead.
 
 ## How to Install and Use Akuity Agents on Amazon EKS
 
