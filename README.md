@@ -1,6 +1,6 @@
-# How to deploy Akuity Agent on Amazon EKS
+# Streamlining Amazon EKS Management with Akuity Agent
 
-# Streamlining EKS Management with Akuity Agent
+<img src="https://i.ytimg.com/vi/PJTEDKOyAxo/hqdefault.jpg" alt="stuff">
 
 Managing Kubernetes clusters on Amazon EKS can be challenging, particularly when it comes to achieving efficient continuous deployment and managing applications at scale. The complexity of ensuring seamless operations, updates, and security often overwhelms even seasoned DevOps teams. This is where Akuity steps in, offering a streamlined solution with its EKS add-on, making cluster management more efficient and secure.
 
