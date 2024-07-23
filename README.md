@@ -4,7 +4,9 @@ Managing Kubernetes clusters on Amazon EKS can be challenging, particularly when
 
 ## Technical Value of Akuity Agents
 
-Akuity Agents enhance Amazon EKS by providing an integrated solution for continuous deployment and cluster management. Key benefits include:
+Akuity Agents enhance Amazon EKS by providing an integrated solution for continuous deployment and cluster management.
+
+Key benefits include:
 
 Simplified Deployment: Automate and streamline application deployment with Argo CD integration.
 Enhanced Security: Secure your deployments with managed secrets and policies.
