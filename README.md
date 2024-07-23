@@ -9,11 +9,8 @@ Akuity Agents enhance Amazon EKS by providing an integrated solution for continu
 Key benefits include:
 
 - Simplified Deployment: Automate and streamline application deployment with Argo CD integration.
-
 - Enhanced Security: Secure your deployments with managed secrets and policies.
-
 - Scalability: Effortlessly manage and scale your Kubernetes clusters with robust tools and integrations.
-
 - Reduced Complexity: Simplify cluster management through a single platform, reducing the learning curve and operational overhead.
 
 ## How to Install and Use Akuity Agents on Amazon EKS
@@ -30,11 +27,8 @@ Key benefits include:
 1. Add an EKS Cluster to Argo CD:
 
 - Navigate to Argo CD → your instance → Clusters.
-
 - Click + Connect a cluster and input your Cluster Name.
-
 - Expand the "Advanced settings" and select the "Addons" tab.
-
 - Click + Add for EKS Add-on and then Connect Cluster.
 
 
@@ -47,8 +41,6 @@ kubectl create namespace akuity
 3. Install via AWS Console:
    
 - Go to the EKS cluster in the AWS console.
-
 - Navigate to the add-ons tab and select Get more add-ons.
-  
 - Find and select Akuity Agent and follow the prompts to complete the installation.
 
