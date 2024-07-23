@@ -62,11 +62,11 @@ Install via AWS Console:
 
 <img src="https://docs.akuity.io/assets/images/eks_addon_aws_console_1-5dac538e669b7f23b40202855ba3e827.png" alt="stuff">
 
-Go to the Akuity Platform's Cluster page and copy the JSON from Step 1.
+- Go to the Akuity Platform's Cluster page and copy the JSON from Step 1.
 
 <img src="https://docs.akuity.io/assets/images/eks_addon_akp_cluster_add_2-74b8813acb4073b39bcf69662ff6d8ef.png" alt="stuff">
 
-It will look something like this.
+- It will look something like this.
 
 ```json
 {
@@ -74,11 +74,14 @@ It will look something like this.
 }
 ```
 
-Select the latest version, and expand the "Optional configuration settings" so that you can copy the JSON from above into the "Configuration values" box. Select the "Override" radio button and then hit "Next".
+- Select the latest version
+- Expand the "Optional configuration settings"
+- Copy the JSON from above into the "Configuration values" box
+- Select the "Override" radio button and then hit "Next"
 
 <img src="https://docs.akuity.io/assets/images/eks_addon_aws_console_2-e012464519cca01567dc3506b58faa61.png" alt="stuff">
 
-If everything looks good, click the "Create" button.
+- If everything looks good, click the "Create" button.
 
 <img src="https://docs.akuity.io/assets/images/eks_addon_aws_console_3-f9a0e02b56f74f8e0e76db8bb715cab7.png" alt="stuff">
 
