@@ -14,6 +14,9 @@ Key benefits include:
 - **Reduced Complexity:** Simplify cluster management through a single platform, reducing the learning curve and operational overhead.
 
 ## How to Install and Use Akuity Agents on Amazon EKS
+> [!WARNING]
+> During EKS add-on installation, images must be pulled only from the EKS repository. This can’t be changed by the user.
+
 
 ### Prerequisites:
 
@@ -45,6 +48,12 @@ kubectl create namespace akuity
    - Find and select Akuity Agent and follow the prompts to complete the installation.
 
 4. Install via CLI:
+
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
 
 ```bash
 export AKP_API_URL="<The URL you got from AKP>"
