@@ -14,8 +14,6 @@ Key benefits include:
 - **Reduced Complexity:** Simplify cluster management through a single platform, reducing the learning curve and operational overhead.
 
 ## How to Install and Use Akuity Agents on Amazon EKS
-> [!WARNING]
-> During EKS add-on installation, images must be pulled only from the EKS repository. This can’t be changed by the user.
 
 
 ### Prerequisites:
@@ -24,6 +22,9 @@ Key benefits include:
 - An AWS EKS cluster
 - Subscription to the Akuity Agent EKS add-on
 - kubectl and AWS CLI installed
+
+> [!WARNING]
+> During EKS add-on installation, images must be pulled only from the EKS repository. This can’t be changed by the user.
 
 ### Steps to Install:
 
