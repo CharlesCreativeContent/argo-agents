@@ -64,6 +64,10 @@ Install via CLI:
 </summary>
 <br>
 
+- **Install the Akuity Agent add-on** - In the Install Akuity Agent pop-up screen, enter the name of your EKS cluster
+- click "Copy to Clipboard" on step 2.
+<img src="https://docs.akuity.io/assets/images/eks_addon_akp_cluster_add_3-6176f1feefb71fe66c84c496660262db.png" alt="stuff">
+
 ```bash
 export AKP_API_URL="<The URL you got from AKP>"
 aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
