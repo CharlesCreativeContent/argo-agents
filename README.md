@@ -44,3 +44,47 @@ kubectl create namespace akuity
 - Navigate to the add-ons tab and select Get more add-ons.
 - Find and select Akuity Agent and follow the prompts to complete the installation.
 
+Install via CLI:
+
+```bash
+export AKP_API_URL="<The URL you got from AKP>"
+aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
+   --configuration-values "{\"akpUrl\":\"$AKP_API_URL\"}" --resolve-conflicts OVERWRITE
+```
+
+
+Install via CLI:
+
+```bash
+export AKP_API_URL="<The URL you got from AKP>"
+aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
+   --configuration-values "{\"akpUrl\":\"$AKP_API_URL\"}" --resolve-conflicts OVERWRITE
+```
+
+Create API Token Secret:
+
+
+```bash
+export TOKEN=<your cluster token>
+kubectl create secret generic akuity-platform-api-token -n akuity --from-literal=AKP_TOKEN="$TOKEN"
+```
+
+Verify Installation:
+
+
+```bash
+aws eks describe-addon --addon-name akuity_agent --region <AWS_REGION> --cluster-name <CLUSTER_NAME>
+```
+
+Clean Up:
+
+```bash
+kubectl delete secret akuity-platform-api-token -n akuity
+```
+
+## Summary
+Using Akuity Agents on Amazon EKS simplifies the management and deployment of applications, enhances security, and scales operations efficiently. By integrating with Argo CD and providing robust automation tools, Akuity empowers DevOps teams to focus on innovation rather than infrastructure management.
+
+## Call to Action:
+
+Ready to streamline your Kubernetes management? Get started with Akuity on Amazon EKS today and transform your DevOps workflow!
