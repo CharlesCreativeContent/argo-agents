@@ -133,6 +133,10 @@ aws eks describe-addon --addon-name akuity_agent --region <AWS_REGION> --cluster
 kubectl delete secret akuity-platform-api-token -n akuity
 ```
 
+### Ready to streamline your Kubernetes management?
+
 Using Akuity Agents on Amazon EKS simplifies the management and deployment of applications, enhances security, and scales operations efficiently. By integrating with Argo CD and providing robust automation tools, Akuity empowers DevOps teams to focus on innovation rather than infrastructure management.
 
-Ready to streamline your Kubernetes management?  [Start your free trial](https://akuity.io/) and transform your DevOps workflow with [Akuity on Amazon EKS](https://docs.akuity.io/tutorials/eks-addon-agent-install/)!
+Ready to streamline your EKS management?
+
+[Start your free trial](https://akuity.io/) and transform your DevOps workflow with [Akuity on Amazon EKS](https://docs.akuity.io/tutorials/eks-addon-agent-install/)!
