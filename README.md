@@ -38,7 +38,7 @@ Key benefits include:
    - Click + Add for EKS Add-on and then Connect Cluster.
 
 > [!NOTE]
-> For more detail: refer to [documentation](https://docs.akuity.io/tutorials/eks-addon-agent-install/#create-the-akuity-namespace)
+> Refer to [documentation](https://docs.akuity.io/tutorials/eks-addon-agent-install/#create-the-akuity-namespace) for more details
 
 2. Create the akuity Namespace:
 
@@ -73,7 +73,7 @@ aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
 </details>
 
 
-4. Create API Token Secret:
+3. Create API Token Secret:
 
 
 ```bash
@@ -81,14 +81,14 @@ export TOKEN=<your cluster token>
 kubectl create secret generic akuity-platform-api-token -n akuity --from-literal=AKP_TOKEN="$TOKEN"
 ```
 
-5. Verify Installation:
+4. Verify Installation:
 
 
 ```bash
 aws eks describe-addon --addon-name akuity_agent --region <AWS_REGION> --cluster-name <CLUSTER_NAME>
 ```
 
-6. Clean Up:
+5. Clean Up:
 
 ```bash
 kubectl delete secret akuity-platform-api-token -n akuity
