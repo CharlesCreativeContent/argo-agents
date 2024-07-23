@@ -40,9 +40,9 @@ kubectl create namespace akuity
 
 3. Install via AWS Console:
    
-- Go to the EKS cluster in the AWS console.
-- Navigate to the add-ons tab and select Get more add-ons.
-- Find and select Akuity Agent and follow the prompts to complete the installation.
+   - Go to the EKS cluster in the AWS console.
+   - Navigate to the add-ons tab and select Get more add-ons.
+   - Find and select Akuity Agent and follow the prompts to complete the installation.
 
 4. Install via CLI:
 
