@@ -37,6 +37,8 @@ Key benefits include:
    - Expand the "Advanced settings" and select the "Addons" tab.
    - Click + Add for EKS Add-on and then Connect Cluster.
 
+> [!NOTE]
+> For more detail: refer to [documentation](https://docs.akuity.io/tutorials/eks-addon-agent-install/#create-the-akuity-namespace)
 
 2. Create the akuity Namespace:
 
