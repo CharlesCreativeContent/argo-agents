@@ -37,6 +37,8 @@ Key benefits include:
    - Expand the "Advanced settings" and select the "Addons" tab.
    - Click + Add for EKS Add-on and then Connect Cluster.
 
+This will take you to an Install Akuity Agent pop-up screen. Make sure you are on the "EKS" tab and then select which way you want to install the Add-on you can pick the AWS console or the CLI.
+
 > [!NOTE]
 > Refer to [documentation](https://docs.akuity.io/tutorials/eks-addon-agent-install/#create-the-akuity-namespace) for more details
 
@@ -45,6 +47,8 @@ Key benefits include:
  ```bash
 kubectl create namespace akuity
 ```
+
+
 
 <details>
 <summary>
@@ -56,6 +60,19 @@ Install via AWS Console:
    - Navigate to the add-ons tab and select Get more add-ons.
    - Find and select Akuity Agent and follow the prompts to complete the installation.
 
+<img src="https://docs.akuity.io/assets/images/eks_addon_aws_console_1-5dac538e669b7f23b40202855ba3e827.png" alt="stuff">
+
+Go to the Akuity Platform's Cluster page and copy the JSON from Step 1.
+
+<img src="https://docs.akuity.io/assets/images/eks_addon_akp_cluster_add_2-74b8813acb4073b39bcf69662ff6d8ef.png" alt="stuff">
+
+It will look something like this.
+
+```json
+{
+  "akpUrl": "https://akuity.cloud/api/v1/orgs/yx8wvj7x/argocd/instances/ssvo50jge/clusters/923arp4j/manifests"
+}
+```
 </details>
 
 <details>
