@@ -1,4 +1,4 @@
-# Streamlining Amazon EKS Management with Akuity Agent
+# Streamlining Amazon EKS with Akuity Agent - [View Post](https://github.com/CharlesCreativeContent/argo-agents/blob/main/c69c2c2a-bc33-4457-a20e-45ecb1067dd0.png?raw=true)
 
 <img src="https://i.ytimg.com/vi/PJTEDKOyAxo/hqdefault.jpg" alt="stuff">
 
