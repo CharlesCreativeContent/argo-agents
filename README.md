@@ -46,8 +46,7 @@ Key benefits include:
 kubectl create namespace akuity
 ```
 
-3. 
-<details>
+3. <details>
 <summary>
 Install via AWS Console:
 </summary>
