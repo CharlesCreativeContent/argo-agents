@@ -17,7 +17,7 @@ Key benefits include:
 
 ### Prerequisites:
 
-- An Akuity Platform account with an Argo CD instance
+- An [Akuity Platform](https://akuity.cloud/) account with an Argo CD instance
 - An AWS EKS cluster
 - Subscription to the Akuity Agent EKS add-on
 - kubectl and AWS CLI installed
