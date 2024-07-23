@@ -23,10 +23,15 @@ kubectl and AWS CLI installed
 ### Steps to Install:
 
 Add an EKS Cluster to Argo CD:
+
 Navigate to Argo CD → your instance → Clusters.
+
 Click + Connect a cluster and input your Cluster Name.
+
 Expand the "Advanced settings" and select the "Addons" tab.
+
 Click + Add for EKS Add-on and then Connect Cluster.
+
 
 ### Create the akuity Namespace:
 
