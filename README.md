@@ -46,19 +46,20 @@ Key benefits include:
 kubectl create namespace akuity
 ```
 
-3. Install via AWS Console:
-   
+3. 
+<details>
+<summary>
+Install via AWS Console:
+</summary>
+<br>
+
    - Go to the EKS cluster in the AWS console.
    - Navigate to the add-ons tab and select Get more add-ons.
    - Find and select Akuity Agent and follow the prompts to complete the installation.
 
-4. Install via CLI:
-
-<details>
-<summary>How do I dropdown?</summary>
-<br>
-This is how you dropdown.
 </details>
+
+4. Install via CLI:
 
 ```bash
 export AKP_API_URL="<The URL you got from AKP>"
