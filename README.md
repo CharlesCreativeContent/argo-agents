@@ -1,2 +1,6 @@
-# argo-agents
-Blog post on how to deploy argo agents on aws eks
+# How to deploy Argo Agents on AWS EKS
+
+ ```bash
+Copy code
+kubectl create namespace akuity
+```
