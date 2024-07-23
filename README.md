@@ -23,7 +23,8 @@ Key benefits include:
 - An [Akuity Platform](https://akuity.cloud/) account with an Argo CD instance
 - An AWS EKS cluster
 - Subscription to the Akuity Agent EKS add-on
-- kubectl and AWS CLI installed
+- kubectl installed
+- AWS CLI installed (optional)
 
 > [!IMPORTANT]
 > During EKS add-on installation, images must be pulled only from the EKS repository. This can’t be changed by the user.
