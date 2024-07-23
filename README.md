@@ -30,7 +30,7 @@ Key benefits include:
 
 ### Steps to Install:
 
-1. Add an EKS Cluster to Argo CD:
+1. **Add an EKS Cluster to Argo CD:**
 
    - Navigate to Argo CD → your instance → Clusters.
    - Click + Connect a cluster and input your Cluster Name.
@@ -42,7 +42,7 @@ This will take you to an Install Akuity Agent pop-up screen. Make sure you are o
 > [!NOTE]
 > Refer to [documentation](https://docs.akuity.io/tutorials/eks-addon-agent-install/#create-the-akuity-namespace) for more details
 
-2. Create the akuity Namespace:
+2. **Create the akuity Namespace:**
 
  ```bash
 kubectl create namespace akuity
@@ -111,7 +111,7 @@ aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
 </details>
 
 
-3. Create API Token Secret:
+3. **Create API Token Secret:**
 
 
 ```bash
@@ -119,14 +119,14 @@ export TOKEN=<your cluster token>
 kubectl create secret generic akuity-platform-api-token -n akuity --from-literal=AKP_TOKEN="$TOKEN"
 ```
 
-4. Verify Installation:
+4. **Verify Installation:**
 
 
 ```bash
 aws eks describe-addon --addon-name akuity_agent --region <AWS_REGION> --cluster-name <CLUSTER_NAME>
 ```
 
-5. Clean Up:
+5. **Clean Up:**
 
 ```bash
 kubectl delete secret akuity-platform-api-token -n akuity
