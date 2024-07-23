@@ -30,6 +30,9 @@ Key benefits include:
 
 ### Steps to Install:
 
+> [!NOTE]
+> Refer to [documentation](https://docs.akuity.io/tutorials/eks-addon-agent-install/#create-the-akuity-namespace) for more details
+
 1. **Add an EKS Cluster to Argo CD:**
 
    - Navigate to Argo CD → your instance → Clusters.
@@ -38,9 +41,6 @@ Key benefits include:
    - Click + Add for EKS Add-on and then Connect Cluster.
 
 This will take you to an Install Akuity Agent pop-up screen. Make sure you are on the "EKS" tab and then select which way you want to install the Add-on you can pick the AWS console or the CLI.
-
-> [!NOTE]
-> Refer to [documentation](https://docs.akuity.io/tutorials/eks-addon-agent-install/#create-the-akuity-namespace) for more details
 
 2. **Create the akuity Namespace:**
 
