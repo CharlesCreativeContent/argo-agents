@@ -73,6 +73,15 @@ It will look something like this.
   "akpUrl": "https://akuity.cloud/api/v1/orgs/yx8wvj7x/argocd/instances/ssvo50jge/clusters/923arp4j/manifests"
 }
 ```
+
+Select the latest version, and expand the "Optional configuration settings" so that you can copy the JSON from above into the "Configuration values" box. Select the "Override" radio button and then hit "Next".
+
+<img src="https://docs.akuity.io/assets/images/eks_addon_aws_console_2-e012464519cca01567dc3506b58faa61.png" alt="stuff">
+
+If everything looks good, click the "Create" button.
+
+<img src="https://docs.akuity.io/assets/images/eks_addon_aws_console_3-f9a0e02b56f74f8e0e76db8bb715cab7.png" alt="stuff">
+
 </details>
 
 <details>
