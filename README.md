@@ -44,7 +44,7 @@ kubectl create namespace akuity
 - Navigate to the add-ons tab and select Get more add-ons.
 - Find and select Akuity Agent and follow the prompts to complete the installation.
 
-Install via CLI:
+4. Install via CLI:
 
 ```bash
 export AKP_API_URL="<The URL you got from AKP>"
@@ -52,16 +52,7 @@ aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
    --configuration-values "{\"akpUrl\":\"$AKP_API_URL\"}" --resolve-conflicts OVERWRITE
 ```
 
-
-Install via CLI:
-
-```bash
-export AKP_API_URL="<The URL you got from AKP>"
-aws eks create-addon --cluster-name my-cluster --addon-name akuity_agent \
-   --configuration-values "{\"akpUrl\":\"$AKP_API_URL\"}" --resolve-conflicts OVERWRITE
-```
-
-Create API Token Secret:
+5. Create API Token Secret:
 
 
 ```bash
@@ -69,14 +60,14 @@ export TOKEN=<your cluster token>
 kubectl create secret generic akuity-platform-api-token -n akuity --from-literal=AKP_TOKEN="$TOKEN"
 ```
 
-Verify Installation:
+6. Verify Installation:
 
 
 ```bash
 aws eks describe-addon --addon-name akuity_agent --region <AWS_REGION> --cluster-name <CLUSTER_NAME>
 ```
 
-Clean Up:
+7. Clean Up:
 
 ```bash
 kubectl delete secret akuity-platform-api-token -n akuity
